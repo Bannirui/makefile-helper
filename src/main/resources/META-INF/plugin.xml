@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.github.bannirui.makefile-helper</id>
+    <name>Makefile helper</name>
+    <version>1.0.0</version>
+    <vendor email="Bannirui@outlook.com" url="https://github.com/Bannirui/orm-generator">Bannirui</vendor>
+
+    <description><![CDATA[
+    Base on compiledb.<br>
+    To build compile_command.json for Clion, a support for function jump.<br>
+  ]]></description>
+
+    <change-notes><![CDATA[
+		<p>1.0.0</p>
+		<ul>
+			<li>Compiledb chain.</li>
+			<li>Generate compile_command.json file.</li>
+			<li>Refresh project.</li>
+		</ul>
+	]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+</idea-plugin>
